@@ -1,0 +1,78 @@
+.gradient-background {
+    background: linear-gradient(300deg,#a9e2fd, #da7fb7, #e9cac5);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+section{
+    background-color: #e9c4d4;
+}
+h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 700%;
+    font-weight: 300;
+    line-height: 1.2;
+    color: black;
+}
+h2{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 500%;
+    font-weight: bold;
+    color: black; 
+}
+h3, h4, h5{
+    font-family: 'Urbanist', sans-serif;
+    font-weight: bold;
+}
+p, label{
+    font-size: 150%;
+    font-family: 'Urbanist', sans-serif;
+}
+.lead{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 200%;
+}
+
+.navbar{
+    background-color: #70155A;
+    --bs-bg-opacity: 1;
+}
+.navbar-brand, .nav-link{
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 120%; 
+}
+.navbar-brand:hover, .nav-link:hover{
+    color: #DBB2D1;
+}
+.btn-primary:hover{
+    background-color: #4a0f3b;
+}
+.btn-primary{
+    background-color: #70155A;
+    border: #70155A;
+    font-family: 'Urbanist', sans-serif;
+}
+.btn-outline-secondary{
+    color: rgb(60, 71, 57);
+    border: rgb(60, 71, 57);
+}
+.btn-outline-secondary:hover{
+    background-color: #DBB2D1;
+}
+.dot{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
